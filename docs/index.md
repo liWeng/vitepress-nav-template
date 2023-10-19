@@ -1,21 +1,21 @@
 ---
 layout: home
-layoutClass: 'm-home-layout'
+layoutClass: 'mzw-layout'
 
 hero:
-  name: 茂茂的
-  text: 前端导航模板
-  tagline: 基于 VitePress 的个人前端导航页面模板
+  name: 木子文的快乐生活
+  text: 几时归去，作个闲人
+  tagline: 满堂花醉三千客，一剑霜寒十四州
   image:
     src: /logo.png
-    alt: 茂茂物语
+    alt: 在程序的海洋里快乐的遨游
   actions:
-    - text: 茂茂物语
+    - text: 木子物语
       link: https://notes.fe-mm.com
-    - text: 前端导航
+    - text: 导航
       link: /nav/
       theme: alt
-    - text: mmPlayer
+    - text: 日常
       link: https://netease-music.fe-mm.com
       theme: alt
 features:
@@ -51,17 +51,17 @@ features:
 ---
 
 <style>
-/*爱的魔力转圈圈*/
-.m-home-layout .image-src:hover {
+/*头像转圈*/
+.mzw-layout .image-src:hover {
   transform: translate(-50%, -50%) rotate(666turn);
   transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
 }
 
-.m-home-layout .details small {
+.mzw-layout .details small {
   opacity: 0.8;
 }
 
-.m-home-layout .bottom-small {
+.mzw-layout .bottom-small {
   display: block;
   margin-top: 2em;
   text-align: right;

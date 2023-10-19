@@ -18,14 +18,14 @@
 
 ```ts
 hero:
-  name: 茂茂的 //左侧第一行
+  name: name //左侧第一行
   text: 个人前端导航  //左侧第二行
   tagline: 使用 VitePress 打造个人前端导航  //第三行小注内容
   image:
     src: /logo.png //页面大图地址（图像最好切圆后使用）
-    alt: 茂茂物语
+    alt: name
   actions:  //跳转按钮，可按需增减
-    - text: 茂茂物语
+    - text: name
       link: https://notes.fe-mm.com
     - text: 前端导航
       link: /nav/
