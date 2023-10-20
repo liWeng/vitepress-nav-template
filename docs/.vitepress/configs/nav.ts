@@ -20,7 +20,20 @@ export const nav: DefaultTheme.Config['nav'] = [
   },
   {
     text: '后端',
-    link: ''
+    items: [
+      {
+        items: [
+          { text: "MySqlProcessList状态详解", link: "/articles/performance/MySqlProcessList状态详解.md" },
+          { text: "性能排查方案", link: "/articles/performance/性能排查方案.md" },
+        ],
+      },
+      {
+        items: [
+          { text: "Item B1", link: "/item-B1" },
+          { text: "Item B2", link: "/item-B2" },
+        ],
+      },
+    ],
   },
   { text: '规范',
     items: [
@@ -64,52 +77,69 @@ export const nav: DefaultTheme.Config['nav'] = [
       {
         items: [
           { text: "docker", link: "/articles/deploy/docker安装.md" },
-        ],
-      },
-      {
-        items: [
-          { text: "中间件-ES", link: "/articles/deploy/中间件-ES-集群安装.md" },
-        ],
-      },
-      {
-        items: [
-          { text: "ftp", link: "/articles/deploy/Linux 搭建ftp.md" },
-        ],
-      },
-      {
-        items: [
           { text: "中间件-tomcat镜像使用", link: "/articles/deploy/中间件-tomcat镜像使用.md" },
         ],
       },
       {
         items: [
           { text: "中间件-zookeeper-单点安装", link: "/articles/deploy/中间件-zookeeper-单点安装" },
-        ],
-      },
-      {
-        items: [
           { text: "中间件-zookeeper-集群安装", link: "/articles/deploy/中间件-zookeeper-集群安装.md" },
+          { text: "NFS安装", link: "/articles/deploy/NFS安装.md" },
+          { text: "中间件-ES", link: "/articles/deploy/中间件-ES-集群安装.md" },
+          { text: "ftp", link: "/articles/deploy/Linux 搭建ftp.md" },
         ],
       },
       {
         items: [
           { text: "keepalived-高可用-安装", link: "/articles/deploy/keepalived-高可用-安装.md" },
           { text: "keepalive配置", link: "/articles/deploy/keepalive配置.md" },
-        ],
-      },
-      {
-        items: [
           { text: "负载均衡-haproxy", link: "/articles/deploy/负载均衡-haproxy.md" },
-        ],
-      },
-      {
-        items: [
           { text: "负载均衡-nginx安装", link: "/articles/deploy/负载均衡-nginx安装.md" },
         ],
       },
       {
         items: [
-          { text: "NFS安装", link: "/articles/deploy/NFS安装.md" },
+          { text: "持续集成-jenkins安装", link: "/articles/deploy/持续集成-jenkins安装.md" },
+        ],
+      },
+      {
+        items: [
+          { text: "日志收集-elk服务安装", link: "/articles/deploy/日志收集-elk服务安装.md" },
+          { text: "日志收集-filebeat客户端安装", link: "/articles/deploy/日志收集-filebeat客户端安装.md" },
+        ],
+      },
+      {
+        items: [
+          { text: "大数据-spark单点安装", link: "/articles/deploy/大数据-spark单点安装.md" },
+          { text: "大数据-spark集群安装", link: "/articles/deploy/大数据-spark集群安装.md" },
+        ],
+      },
+      {
+        items: [
+          { text: "消息队列-kafka单点安装", link: "/articles/deploy/消息队列-kafka单点安装.md" },
+          { text: "消息队列-kafka集群安装", link: "/articles/deploy/消息队列-kafka集群安装.md" },
+        ],
+      },
+      {
+        items: [
+          { text: "服务监控-pmm-client客户端安装", link: "/articles/deploy/服务监控-pmm-client客户端安装.md" },
+          { text: "服务监控-pmm-server服务端安装", link: "/articles/deploy/服务监控-pmm-server服务端安装.md" },
+        ],
+      },
+      {
+        items: [
+          { text: "数据库-PXC5.7单节点安装", link: "/articles/deploy/数据库-PXC5.7单节点安装.md" },
+          { text: "数据库-PXC5.7单节点安装-离线", link: "/articles/deploy/数据库-PXC5.7单节点安装-离线.md" },
+          { text: "数据库-PXC8.0单节点安装", link: "/articles/deploy/数据库-PXC8.0单节点安装.md" },
+          { text: "数据库-PXC5.7集群安装", link: "/articles/deploy/数据库-PXC5.7集群安装.md" },
+        ],
+      },
+      {
+        items: [
+          { text: "数据库-PXC5.7单节点安装", link: "/articles/deploy/数据库-PXC5.7单节点安装.md" },
+          { text: "数据库-PXC5.7单节点安装-离线", link: "/articles/deploy/数据库-PXC5.7单节点安装-离线.md" },
+          { text: "数据库-PXC8.0单节点安装", link: "/articles/deploy/数据库-PXC8.0单节点安装.md" },
+          { text: "数据库-PXC5.7集群安装", link: "/articles/deploy/数据库-PXC5.7集群安装.md" },
         ],
       },
       {
