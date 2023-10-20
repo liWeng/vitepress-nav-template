@@ -4,7 +4,7 @@ mongodb sharding 以三节点为例，详细介绍mongodb高可用架构部署
 
 ### 编写人员 
 
-贾立鑫
+
 
 
 #### 环境说明

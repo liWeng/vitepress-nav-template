@@ -3,7 +3,7 @@
 
 ## 编写人员 
 
-贾立鑫
+
 
 ##  SHOW PROCESSLIST命令 推荐使用 select * from information_schema.`PROCESSLIST` where  COMMAND <> 'Sleep'， 更灵活
 

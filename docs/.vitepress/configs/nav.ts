@@ -136,14 +136,6 @@ export const nav: DefaultTheme.Config['nav'] = [
       },
       {
         items: [
-          { text: "数据库-PXC5.7单节点安装", link: "/articles/deploy/数据库-PXC5.7单节点安装.md" },
-          { text: "数据库-PXC5.7单节点安装-离线", link: "/articles/deploy/数据库-PXC5.7单节点安装-离线.md" },
-          { text: "数据库-PXC8.0单节点安装", link: "/articles/deploy/数据库-PXC8.0单节点安装.md" },
-          { text: "数据库-PXC5.7集群安装", link: "/articles/deploy/数据库-PXC5.7集群安装.md" },
-        ],
-      },
-      {
-        items: [
           { text: "redis-单点", link: "/articles/deploy/中间件-redis-单点安装.md" },
           { text: "redis集群安装-哨兵模式", link: "/articles/deploy/中间件-redis集群安装-哨兵模式.md" },
           { text: "redis集群安装-哨兵模式-new", link: "/articles/deploy/redis集群部署 - 哨兵模式-new.md" },
