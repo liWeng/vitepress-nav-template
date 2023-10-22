@@ -1,11 +1,12 @@
-centos7 设置网卡
-
+### centos7 设置网卡
+```
 $ nmcli dev status 查看网卡状态
-
 进入/etc/sysconfig/network-scripts目录，找到该接口的配置文件（ifcfg-enp0s3）。如果没有，请创建一个。
+```
 
-centos网络配置实例
-1，配置DNS
+### centos网络配置实例
+#### 1，配置DNS
+```
 vi /etc/resolv.conf
 加入:
 
@@ -16,8 +17,9 @@ vi /etc/resolv.conf
 nameserver 192.168.0.1 
 nameserver 8.8.8.8
 nameserver 8.8.4.4
-
-2，配置网关：
+```
+#### 2，配置网关：
+```
 vi /etc/sysconfig/network
 加入：
 GATEWAY=192.168.0.1
@@ -31,8 +33,9 @@ GATEWAY=192.168.0.1
 NETWORKING=yes
 HOSTNAME=localhost.localdomain
 GATEWAY=192.168.0.1
-
-3，配置ip地址： 
+```
+#### 3，配置ip地址： 
+```
 vi /etc/sysconfig/network-scripts/ifcfg-eth0
 内容如下
  
@@ -51,11 +54,11 @@ GATEWAY=192.168.0.1
 BOOTPROTO=static
 ONBOOT=yes
 PEERDNS=yes
-
+```
  
-4，重新启动服务：
+#### 4，重新启动服务：
 
-
+```
 复制代码
 代码如下:
 
@@ -76,3 +79,4 @@ shutdown -h now
 
 
 
+```

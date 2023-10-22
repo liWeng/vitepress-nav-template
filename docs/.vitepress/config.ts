@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-import { head, nav, sidebar } from './configs'
+import {head, nav, sidebar} from './configs'
 
 export default defineConfig({
   outDir: '../dist',
