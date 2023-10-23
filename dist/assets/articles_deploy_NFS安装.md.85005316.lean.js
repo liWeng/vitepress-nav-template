@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,a as e}from"./app.4690b2e6.js";const C=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"articles/deploy/NFS安装.md","lastUpdated":1697709769000}'),l={name:"articles/deploy/NFS安装.md"},p=e("",40),i=[p];function r(t,c,o,d,b,m){return a(),n("div",null,i)}const h=s(l,[["render",r]]);export{C as __pageData,h as default};
