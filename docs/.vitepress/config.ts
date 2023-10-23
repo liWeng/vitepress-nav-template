@@ -4,7 +4,7 @@ import {head, nav, sidebar} from './configs'
 
 export default defineConfig({
   outDir: '../dist',
-  base: '/dist/',
+  base: process.env.APP_BASE_PATH || '/',
 
   lang: 'zh-CN',
   title: '木子',
