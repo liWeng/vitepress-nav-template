@@ -11,6 +11,7 @@ export default defineConfig({
   description: 'mzw的学武路途，包含各路武功秘籍...',
   head,
 
+  ignoreDeadLinks: true,
   lastUpdated: true,
   cleanUrls: true,
 
