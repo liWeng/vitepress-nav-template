@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as l}from"./app.e6daa892.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"articles/norm/开发规范-前端.md","lastUpdated":1697707960000}'),p={name:"articles/norm/开发规范-前端.md"},e=l("",95),o=[e];function t(r,c,D,i,F,y){return n(),a("div",null,o)}const C=s(p,[["render",t]]);export{b as __pageData,C as default};
