@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vitepress dev docs --port=8732",
     "build": "vitepress build docs",
-    "build:github": "cross-env APP_BASE_PATH=/vitepress-nav-template/ vitepress build docs",
+    "build:github": "cross-env APP_BASE_PATH=/vitepress-nav-template/docs/.vitepress/dist/ vitepress build docs",
     "prepare": "husky install",
     "format": "prettier --write ."
   },
